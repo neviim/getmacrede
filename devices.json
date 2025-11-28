@@ -1,0 +1,154 @@
+[
+  {
+    "mac": "bc:24:11:50:d9:c1",
+    "ip": "10.10.0.6",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671654978Z",
+    "status": "Online"
+  },
+  {
+    "mac": "bc:24:11:ce:77:f4",
+    "ip": "10.10.0.5",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671654255Z",
+    "status": "Online"
+  },
+  {
+    "mac": "bc:24:11:b5:54:ee",
+    "ip": "10.10.0.7",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671655912Z",
+    "status": "Block"
+  },
+  {
+    "mac": "c8:60:00:d3:56:d0",
+    "ip": "10.10.0.253",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671662498Z",
+    "status": "Online"
+  },
+  {
+    "mac": "ee:f3:4f:94:27:f5",
+    "ip": "10.10.0.186",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T17:51:39.942667931Z",
+    "status": "Offline"
+  },
+  {
+    "mac": "bc:24:11:ab:4b:80",
+    "ip": "10.10.0.9",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671657182Z",
+    "status": "Online"
+  },
+  {
+    "mac": "bc:24:11:b8:8c:2e",
+    "ip": "10.10.0.12",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671658828Z",
+    "status": "Online"
+  },
+  {
+    "mac": "f8:bc:12:48:d5:90",
+    "ip": "10.10.0.10",
+    "hostname": "Proxmox",
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671657805Z",
+    "status": "Online"
+  },
+  {
+    "mac": "70:54:d2:8f:84:18",
+    "ip": "10.10.0.21",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671659811Z",
+    "status": "Online"
+  },
+  {
+    "mac": "bc:24:11:85:ed:f5",
+    "ip": "10.10.0.8",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671656598Z",
+    "status": "Online"
+  },
+  {
+    "mac": "9c:30:5b:f9:9f:db",
+    "ip": "10.10.0.138",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671661495Z",
+    "status": "Online"
+  },
+  {
+    "mac": "bc:24:11:72:8c:2d",
+    "ip": "10.10.0.22",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671660285Z",
+    "status": "Online"
+  },
+  {
+    "mac": "5c:a6:e6:7f:9f:f8",
+    "ip": "10.10.0.1",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671652182Z",
+    "status": "Online"
+  },
+  {
+    "mac": "f4:1e:57:97:74:30",
+    "ip": "10.10.0.20",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671659385Z",
+    "status": "Online"
+  },
+  {
+    "mac": "00:22:19:98:9b:93",
+    "ip": "10.10.0.23",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671660915Z",
+    "status": "Block"
+  },
+  {
+    "mac": "ce:25:b1:6a:96:0b",
+    "ip": "10.10.0.139",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:42:37.563680181Z",
+    "status": "Online"
+  },
+  {
+    "mac": "60:c7:27:28:36:be",
+    "ip": "10.10.0.251",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671662061Z",
+    "status": "Online"
+  },
+  {
+    "mac": "bc:24:11:4d:d5:1b",
+    "ip": "10.10.0.11",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:43:37.671658258Z",
+    "status": "Online"
+  },
+  {
+    "mac": "b6:f6:bf:7c:42:78",
+    "ip": "10.10.0.242",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-28T18:42:07.563652163Z",
+    "status": "Offline"
+  }
+]
