@@ -4,7 +4,7 @@
     "ip": "10.10.0.6",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671654978Z",
+    "last_seen": "2025-12-01T11:34:07.606664673Z",
     "status": "Online"
   },
   {
@@ -12,7 +12,7 @@
     "ip": "10.10.0.5",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671654255Z",
+    "last_seen": "2025-12-01T11:34:07.606664023Z",
     "status": "Online"
   },
   {
@@ -20,7 +20,7 @@
     "ip": "10.10.0.7",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671655912Z",
+    "last_seen": "2025-12-01T11:34:07.606665496Z",
     "status": "Block"
   },
   {
@@ -28,7 +28,7 @@
     "ip": "10.10.0.253",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671662498Z",
+    "last_seen": "2025-12-01T11:34:07.606671996Z",
     "status": "Online"
   },
   {
@@ -36,7 +36,7 @@
     "ip": "10.10.0.186",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T17:51:39.942667931Z",
+    "last_seen": "2025-12-01T11:10:07.577679142Z",
     "status": "Offline"
   },
   {
@@ -44,7 +44,7 @@
     "ip": "10.10.0.9",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671657182Z",
+    "last_seen": "2025-12-01T11:34:07.606666679Z",
     "status": "Online"
   },
   {
@@ -52,15 +52,23 @@
     "ip": "10.10.0.12",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671658828Z",
+    "last_seen": "2025-12-01T11:34:07.606668369Z",
     "status": "Online"
+  },
+  {
+    "mac": "64:1c:67:d8:7f:12",
+    "ip": "10.10.0.201",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-11-29T14:12:37.610671753Z",
+    "status": "Offline"
   },
   {
     "mac": "f8:bc:12:48:d5:90",
     "ip": "10.10.0.10",
     "hostname": "Proxmox",
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671657805Z",
+    "last_seen": "2025-12-01T11:34:07.606667319Z",
     "status": "Online"
   },
   {
@@ -68,7 +76,7 @@
     "ip": "10.10.0.21",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671659811Z",
+    "last_seen": "2025-12-01T11:34:07.606669356Z",
     "status": "Online"
   },
   {
@@ -76,7 +84,7 @@
     "ip": "10.10.0.8",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671656598Z",
+    "last_seen": "2025-12-01T11:34:07.606666129Z",
     "status": "Online"
   },
   {
@@ -84,7 +92,7 @@
     "ip": "10.10.0.138",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671661495Z",
+    "last_seen": "2025-12-01T11:34:07.606670969Z",
     "status": "Online"
   },
   {
@@ -92,7 +100,7 @@
     "ip": "10.10.0.22",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671660285Z",
+    "last_seen": "2025-12-01T11:34:07.606669796Z",
     "status": "Online"
   },
   {
@@ -100,7 +108,7 @@
     "ip": "10.10.0.1",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671652182Z",
+    "last_seen": "2025-12-01T11:34:07.606661873Z",
     "status": "Online"
   },
   {
@@ -108,7 +116,7 @@
     "ip": "10.10.0.20",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671659385Z",
+    "last_seen": "2025-12-01T11:34:07.606668913Z",
     "status": "Online"
   },
   {
@@ -116,7 +124,7 @@
     "ip": "10.10.0.23",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671660915Z",
+    "last_seen": "2025-12-01T11:34:07.606670493Z",
     "status": "Block"
   },
   {
@@ -124,15 +132,15 @@
     "ip": "10.10.0.139",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:42:37.563680181Z",
-    "status": "Online"
+    "last_seen": "2025-11-28T19:48:37.658687356Z",
+    "status": "Offline"
   },
   {
     "mac": "60:c7:27:28:36:be",
     "ip": "10.10.0.251",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671662061Z",
+    "last_seen": "2025-12-01T11:34:07.606671536Z",
     "status": "Online"
   },
   {
@@ -140,7 +148,7 @@
     "ip": "10.10.0.11",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:43:37.671658258Z",
+    "last_seen": "2025-12-01T11:34:07.606667783Z",
     "status": "Online"
   },
   {
@@ -148,7 +156,7 @@
     "ip": "10.10.0.242",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-11-28T18:42:07.563652163Z",
-    "status": "Offline"
+    "last_seen": "2025-12-01T11:34:07.607134961Z",
+    "status": "Online"
   }
 ]
