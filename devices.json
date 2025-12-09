@@ -4,7 +4,7 @@
     "ip": "192.168.15.30",
     "hostname": null,
     "vendor": "Samsung Electronics",
-    "last_seen": "2025-12-09T23:48:20.069898577Z",
+    "last_seen": "2025-12-09T23:48:49.974911287Z",
     "status": "Online"
   },
   {
@@ -12,7 +12,7 @@
     "ip": "192.168.15.107",
     "hostname": null,
     "vendor": "Samsung Electronics",
-    "last_seen": "2025-12-09T23:48:20.069904728Z",
+    "last_seen": "2025-12-09T23:48:49.974920495Z",
     "status": "Online"
   },
   {
@@ -20,7 +20,7 @@
     "ip": "192.168.15.130",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069920964Z",
+    "last_seen": "2025-12-09T23:48:49.974935996Z",
     "status": "Online"
   },
   {
@@ -28,7 +28,7 @@
     "ip": "192.168.15.112",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069913260Z",
+    "last_seen": "2025-12-09T23:48:49.974931854Z",
     "status": "Online"
   },
   {
@@ -44,7 +44,7 @@
     "ip": "192.168.15.17",
     "hostname": null,
     "vendor": "Intel",
-    "last_seen": "2025-12-09T23:48:20.069897070Z",
+    "last_seen": "2025-12-09T23:48:49.974906480Z",
     "status": "Online"
   },
   {
@@ -87,7 +87,7 @@
     "ip": "192.168.15.109",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069910611Z",
+    "last_seen": "2025-12-09T23:48:49.974927661Z",
     "status": "Online"
   },
   {
@@ -95,7 +95,7 @@
     "ip": "192.168.15.247",
     "hostname": null,
     "vendor": "Virtual/Private MAC",
-    "last_seen": "2025-12-09T23:48:20.069927155Z",
+    "last_seen": "2025-12-09T23:48:49.974950035Z",
     "status": "Online",
     "virtual_mac": "5e:fc:17:1f:61:92"
   },
@@ -122,7 +122,7 @@
     "ip": "192.168.15.108",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069915876Z",
+    "last_seen": "2025-12-09T23:48:49.974937827Z",
     "status": "Online"
   },
   {
@@ -139,7 +139,7 @@
     "ip": "192.168.15.6",
     "hostname": null,
     "vendor": "Proxmox Virtual Machine",
-    "last_seen": "2025-12-09T23:48:20.069888966Z",
+    "last_seen": "2025-12-09T23:48:49.974895902Z",
     "status": "Online",
     "virtual_mac": "bc:24:11:0e:b2:cb"
   },
@@ -148,7 +148,7 @@
     "ip": "192.168.15.118",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069907574Z",
+    "last_seen": "2025-12-09T23:48:49.974925399Z",
     "status": "Online"
   },
   {
@@ -156,7 +156,7 @@
     "ip": "192.168.15.100",
     "hostname": null,
     "vendor": "Samsung Electronics",
-    "last_seen": "2025-12-09T23:48:20.069903308Z",
+    "last_seen": "2025-12-09T23:48:49.974918112Z",
     "status": "Online"
   },
   {
@@ -164,7 +164,7 @@
     "ip": "192.168.15.7",
     "hostname": null,
     "vendor": "Proxmox Virtual Machine",
-    "last_seen": "2025-12-09T23:48:20.069890860Z",
+    "last_seen": "2025-12-09T23:48:49.974898392Z",
     "status": "Online",
     "virtual_mac": "bc:24:11:c4:e6:6a"
   },
@@ -173,7 +173,7 @@
     "ip": "192.168.15.152",
     "hostname": null,
     "vendor": "Virtual/Private MAC",
-    "last_seen": "2025-12-09T23:48:20.069922538Z",
+    "last_seen": "2025-12-09T23:48:49.974945839Z",
     "status": "Online",
     "virtual_mac": "8e:9c:33:ee:d0:a6"
   },
@@ -182,7 +182,7 @@
     "ip": "192.168.15.1",
     "hostname": "_gateway",
     "vendor": "Intelbras",
-    "last_seen": "2025-12-09T23:48:20.069877092Z",
+    "last_seen": "2025-12-09T23:48:49.974878958Z",
     "status": "Online"
   },
   {
@@ -208,7 +208,7 @@
     "ip": "192.168.15.104",
     "hostname": null,
     "vendor": "Virtual/Private MAC",
-    "last_seen": "2025-12-09T23:48:20.069906188Z",
+    "last_seen": "2025-12-09T23:48:49.974923040Z",
     "status": "Online",
     "virtual_mac": "ba:ff:f6:99:50:60"
   },
@@ -235,7 +235,7 @@
     "ip": "192.168.15.32",
     "hostname": null,
     "vendor": "Samsung Electronics",
-    "last_seen": "2025-12-09T23:48:20.069901394Z",
+    "last_seen": "2025-12-09T23:48:49.974915386Z",
     "status": "Online"
   },
   {
@@ -243,7 +243,7 @@
     "ip": "192.168.15.158",
     "hostname": null,
     "vendor": "Virtual/Private MAC",
-    "last_seen": "2025-12-09T23:48:20.069928722Z",
+    "last_seen": "2025-12-09T23:48:49.974952624Z",
     "status": "Online",
     "virtual_mac": "56:fb:8a:1f:9c:cf"
   },
@@ -261,7 +261,7 @@
     "ip": "192.168.15.9",
     "hostname": null,
     "vendor": "Proxmox Virtual Machine",
-    "last_seen": "2025-12-09T23:48:20.069892387Z",
+    "last_seen": "2025-12-09T23:48:49.974900279Z",
     "status": "Online",
     "virtual_mac": "bc:24:11:36:2d:6e"
   },
@@ -279,7 +279,7 @@
     "ip": "192.168.15.5",
     "hostname": null,
     "vendor": "Unknown (Private/Virtual)",
-    "last_seen": "2025-12-09T23:48:20.069886841Z",
+    "last_seen": "2025-12-09T23:48:49.974892548Z",
     "status": "Online",
     "virtual_mac": "ca:4e:2b:74:e3:fa"
   },
@@ -306,7 +306,7 @@
     "ip": "192.168.15.115",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069911887Z",
+    "last_seen": "2025-12-09T23:48:49.974934069Z",
     "status": "Online"
   },
   {
@@ -314,7 +314,7 @@
     "ip": "192.168.15.252",
     "hostname": null,
     "vendor": "Proxmox Virtual Machine",
-    "last_seen": "2025-12-09T23:48:20.069925812Z",
+    "last_seen": "2025-12-09T23:48:49.974948107Z",
     "status": "Online",
     "virtual_mac": "bc:24:11:d4:2d:96"
   },
@@ -323,7 +323,7 @@
     "ip": "192.168.15.4",
     "hostname": null,
     "vendor": "Realtek",
-    "last_seen": "2025-12-09T23:48:20.069882865Z",
+    "last_seen": "2025-12-09T23:48:49.974886959Z",
     "status": "Online"
   },
   {
@@ -331,7 +331,7 @@
     "ip": "192.168.15.153",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069919548Z",
+    "last_seen": "2025-12-09T23:48:49.974943630Z",
     "status": "Online"
   },
   {
@@ -339,7 +339,7 @@
     "ip": "192.168.15.116",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069918395Z",
+    "last_seen": "2025-12-09T23:48:49.974939785Z",
     "status": "Online"
   },
   {
@@ -382,7 +382,7 @@
     "ip": "192.168.15.3",
     "hostname": null,
     "vendor": "Intelbras",
-    "last_seen": "2025-12-09T23:48:20.069881118Z",
+    "last_seen": "2025-12-09T23:48:49.974884233Z",
     "status": "Online"
   },
   {
@@ -435,7 +435,7 @@
     "ip": "192.168.15.111",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069909291Z",
+    "last_seen": "2025-12-09T23:48:49.974929682Z",
     "status": "Online"
   },
   {
@@ -478,7 +478,7 @@
     "ip": "192.168.15.15",
     "hostname": null,
     "vendor": "Intel",
-    "last_seen": "2025-12-09T23:48:20.069895787Z",
+    "last_seen": "2025-12-09T23:48:49.974904772Z",
     "status": "Online"
   },
   {
@@ -486,7 +486,7 @@
     "ip": "192.168.15.250",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069924462Z",
+    "last_seen": "2025-12-09T23:48:49.974908972Z",
     "status": "Online"
   },
   {
@@ -494,7 +494,7 @@
     "ip": "192.168.15.117",
     "hostname": null,
     "vendor": null,
-    "last_seen": "2025-12-09T23:48:20.069917122Z",
+    "last_seen": "2025-12-09T23:48:49.974941535Z",
     "status": "Online"
   },
   {
@@ -502,7 +502,7 @@
     "ip": "192.168.15.31",
     "hostname": null,
     "vendor": "Intel",
-    "last_seen": "2025-12-09T23:48:20.069900074Z",
+    "last_seen": "2025-12-09T23:48:49.974913399Z",
     "status": "Online"
   },
   {
@@ -510,7 +510,7 @@
     "ip": "192.168.15.10",
     "hostname": null,
     "vendor": "Intel",
-    "last_seen": "2025-12-09T23:48:20.069894020Z",
+    "last_seen": "2025-12-09T23:48:49.974902691Z",
     "status": "Online"
   }
 ]
