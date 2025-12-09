@@ -1,0 +1,383 @@
+[
+  {
+    "mac": "5c:e5:0c:5a:65:7c",
+    "ip": "192.168.15.115",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634925708Z",
+    "status": "Online"
+  },
+  {
+    "mac": "12:e1:ec:65:e1:ad",
+    "ip": "192.168.15.154",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T01:35:03.640919518Z",
+    "status": "Offline",
+    "virtual_mac": "12:e1:ec:65:e1:ad"
+  },
+  {
+    "mac": "44:07:0b:07:74:33",
+    "ip": "192.168.15.107",
+    "hostname": null,
+    "vendor": "Samsung Electronics",
+    "last_seen": "2025-12-05T23:38:32.634922678Z",
+    "status": "Online"
+  },
+  {
+    "mac": "1c:f2:9a:46:73:54",
+    "ip": "192.168.15.118",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634923577Z",
+    "status": "Online"
+  },
+  {
+    "mac": "a0:b7:65:18:ff:64",
+    "ip": "192.168.15.246",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-04T21:35:39.477501404Z",
+    "status": "Offline"
+  },
+  {
+    "mac": "6e:f2:2a:cf:c5:12",
+    "ip": "192.168.15.140",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-03T14:26:56.840831779Z",
+    "status": "Offline",
+    "virtual_mac": "6e:f2:2a:cf:c5:12"
+  },
+  {
+    "mac": "d6:45:e8:86:97:ec",
+    "ip": "192.168.15.142",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-03T01:03:56.824708205Z",
+    "status": "Offline",
+    "virtual_mac": "d6:45:e8:86:97:ec"
+  },
+  {
+    "mac": "8e:95:94:d8:06:50",
+    "ip": "192.168.15.152",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T22:11:39.284446883Z",
+    "status": "Offline",
+    "virtual_mac": "12:e1:ec:65:e1:ad"
+  },
+  {
+    "mac": "56:f9:00:f6:ba:d3",
+    "ip": "192.168.15.146",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T04:03:47.601328022Z",
+    "status": "Offline",
+    "virtual_mac": "8e:9c:33:ee:d0:a6"
+  },
+  {
+    "mac": "24:2f:d0:7f:b6:e0",
+    "ip": "192.168.15.1",
+    "hostname": "_gateway",
+    "vendor": "Intelbras",
+    "last_seen": "2025-12-05T23:38:32.634908062Z",
+    "status": "Online"
+  },
+  {
+    "mac": "d0:94:66:a8:d9:12",
+    "ip": "192.168.15.15",
+    "hostname": null,
+    "vendor": "Intel",
+    "last_seen": "2025-12-05T23:38:32.634918652Z",
+    "status": "Online"
+  },
+  {
+    "mac": "b0:19:21:44:d0:ab",
+    "ip": "192.168.15.3",
+    "hostname": null,
+    "vendor": "Intelbras",
+    "last_seen": "2025-12-05T23:38:32.634910441Z",
+    "status": "Online"
+  },
+  {
+    "mac": "38:2c:e5:a8:57:22",
+    "ip": "192.168.15.150",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T19:13:39.332489915Z",
+    "status": "Offline",
+    "virtual_mac": "46:9f:0c:92:fc:05"
+  },
+  {
+    "mac": "68:5b:35:8d:89:41",
+    "ip": "192.168.15.31",
+    "hostname": null,
+    "vendor": "Intel",
+    "last_seen": "2025-12-05T23:38:32.634920837Z",
+    "status": "Online"
+  },
+  {
+    "mac": "6a:21:2b:85:81:ad",
+    "ip": "192.168.15.248",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-05T23:38:02.633807556Z",
+    "status": "Online",
+    "virtual_mac": "6a:21:2b:85:81:ad"
+  },
+  {
+    "mac": "64:1c:67:5f:34:da",
+    "ip": "192.168.15.5",
+    "hostname": null,
+    "vendor": "Intelbras",
+    "last_seen": "2025-12-05T23:38:32.634914413Z",
+    "status": "Online",
+    "virtual_mac": "ca:4e:2b:74:e3:fa"
+  },
+  {
+    "mac": "98:5a:eb:df:a9:e7",
+    "ip": "192.168.15.30",
+    "hostname": null,
+    "vendor": "Samsung Electronics",
+    "last_seen": "2025-12-05T23:38:32.634920109Z",
+    "status": "Online"
+  },
+  {
+    "mac": "d4:a6:51:9a:37:dc",
+    "ip": "192.168.15.108",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634927429Z",
+    "status": "Online"
+  },
+  {
+    "mac": "ca:5d:ae:4e:67:9c",
+    "ip": "192.168.15.247",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-05T23:38:32.635564137Z",
+    "status": "Online",
+    "virtual_mac": "8e:50:d8:0d:c8:67"
+  },
+  {
+    "mac": "82:81:e6:2a:67:8c",
+    "ip": "192.168.15.138",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-02T09:42:26.827829328Z",
+    "status": "Offline",
+    "virtual_mac": "82:81:e6:2a:67:8c"
+  },
+  {
+    "mac": "bc:24:11:0e:b2:cb",
+    "ip": "192.168.15.6",
+    "hostname": null,
+    "vendor": "Proxmox Virtual Machine",
+    "last_seen": "2025-12-05T23:38:32.634915435Z",
+    "status": "Online",
+    "virtual_mac": "bc:24:11:0e:b2:cb"
+  },
+  {
+    "mac": "d0:94:66:a8:d8:72",
+    "ip": "192.168.15.10",
+    "hostname": null,
+    "vendor": "Intel",
+    "last_seen": "2025-12-05T23:38:32.634917794Z",
+    "status": "Online"
+  },
+  {
+    "mac": "0c:80:63:4f:04:9b",
+    "ip": "192.168.15.102",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-04T16:11:43.179481833Z",
+    "status": "Offline"
+  },
+  {
+    "mac": "b0:6e:bf:5a:e3:23",
+    "ip": "192.168.15.250",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634929169Z",
+    "status": "Online"
+  },
+  {
+    "mac": "5e:fc:17:1f:61:92",
+    "ip": "192.168.15.145",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T04:03:17.298495673Z",
+    "status": "Offline",
+    "virtual_mac": "56:f9:00:f6:ba:d3"
+  },
+  {
+    "mac": "12:e1:ec:65:e1:ad",
+    "ip": "192.168.15.249",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T21:07:09.632441924Z",
+    "status": "Offline",
+    "virtual_mac": "8e:50:d8:0d:c8:67"
+  },
+  {
+    "mac": "bc:24:11:d4:2d:96",
+    "ip": "192.168.15.252",
+    "hostname": null,
+    "vendor": "Proxmox Virtual Machine",
+    "last_seen": "2025-12-05T23:38:32.634930199Z",
+    "status": "Online",
+    "virtual_mac": "bc:24:11:d4:2d:96"
+  },
+  {
+    "mac": "c4:2c:03:0a:2a:24",
+    "ip": "192.168.15.251",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634929734Z",
+    "status": "Online"
+  },
+  {
+    "mac": "7c:2e:bd:21:de:a3",
+    "ip": "192.168.15.116",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634927005Z",
+    "status": "Online"
+  },
+  {
+    "mac": "38:2c:e5:a8:57:22",
+    "ip": "192.168.15.149",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T22:14:39.130433467Z",
+    "status": "Offline",
+    "virtual_mac": "8e:9c:33:ee:d0:a6"
+  },
+  {
+    "mac": "c8:69:cd:56:f8:d5",
+    "ip": "192.168.15.111",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634926317Z",
+    "status": "Online"
+  },
+  {
+    "mac": "8e:50:d8:0d:c8:67",
+    "ip": "192.168.15.147",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-03T20:37:57.030872366Z",
+    "status": "Offline",
+    "virtual_mac": "8e:50:d8:0d:c8:67"
+  },
+  {
+    "mac": "98:5a:eb:df:85:27",
+    "ip": "192.168.15.32",
+    "hostname": null,
+    "vendor": "Samsung Electronics",
+    "last_seen": "2025-12-05T23:38:32.634921456Z",
+    "status": "Online"
+  },
+  {
+    "mac": "bc:24:11:c4:e6:6a",
+    "ip": "192.168.15.7",
+    "hostname": null,
+    "vendor": "Proxmox Virtual Machine",
+    "last_seen": "2025-12-05T23:38:32.634916167Z",
+    "status": "Online",
+    "virtual_mac": "bc:24:11:c4:e6:6a"
+  },
+  {
+    "mac": "18:69:d8:aa:31:a5",
+    "ip": "192.168.15.109",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634924479Z",
+    "status": "Online"
+  },
+  {
+    "mac": "7c:2e:bd:46:a8:8c",
+    "ip": "192.168.15.117",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634927853Z",
+    "status": "Online"
+  },
+  {
+    "mac": "56:fb:8a:1f:9c:cf",
+    "ip": "192.168.15.148",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T01:03:49.221934402Z",
+    "status": "Offline",
+    "virtual_mac": "56:fb:8a:1f:9c:cf"
+  },
+  {
+    "mac": "fe:54:94:a8:2e:09",
+    "ip": "192.168.15.151",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T22:14:39.130437683Z",
+    "status": "Offline",
+    "virtual_mac": "9a:b6:eb:2b:a5:7e"
+  },
+  {
+    "mac": "ba:ff:f6:99:50:60",
+    "ip": "192.168.15.103",
+    "hostname": null,
+    "vendor": "Virtual/Private MAC",
+    "last_seen": "2025-12-04T22:14:39.130411517Z",
+    "status": "Offline",
+    "virtual_mac": "ba:ff:f6:99:50:60"
+  },
+  {
+    "mac": "8c:3b:ad:f6:5c:ed",
+    "ip": "192.168.15.100",
+    "hostname": null,
+    "vendor": "Samsung Electronics",
+    "last_seen": "2025-12-05T23:38:32.634921960Z",
+    "status": "Online"
+  },
+  {
+    "mac": "d0:94:66:a8:d9:43",
+    "ip": "192.168.15.17",
+    "hostname": null,
+    "vendor": "Intel",
+    "last_seen": "2025-12-05T23:38:32.634919457Z",
+    "status": "Online"
+  },
+  {
+    "mac": "bc:24:11:36:2d:6e",
+    "ip": "192.168.15.9",
+    "hostname": null,
+    "vendor": "Proxmox Virtual Machine",
+    "last_seen": "2025-12-05T23:38:32.634917132Z",
+    "status": "Online",
+    "virtual_mac": "bc:24:11:36:2d:6e"
+  },
+  {
+    "mac": "50:3e:aa:0e:4c:d6",
+    "ip": "192.168.15.153",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-05T23:38:32.634924997Z",
+    "status": "Online"
+  },
+  {
+    "mac": "5c:01:3b:81:08:80",
+    "ip": "192.168.15.144",
+    "hostname": null,
+    "vendor": null,
+    "last_seen": "2025-12-03T08:11:27.161527088Z",
+    "status": "Offline"
+  },
+  {
+    "mac": "d8:0d:17:93:aa:11",
+    "ip": "192.168.15.4",
+    "hostname": null,
+    "vendor": "Realtek",
+    "last_seen": "2025-12-05T23:38:32.634911724Z",
+    "status": "Online"
+  }
+]

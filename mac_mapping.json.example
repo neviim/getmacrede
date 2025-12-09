@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "192.168.15.31",
+    "real_mac": "BC:24:11:36:2D:6E",
+    "description": "Proxmox LXC Container - Example"
+  },
+  {
+    "ip": "192.168.15.100",
+    "real_mac": "AA:BB:CC:DD:EE:FF",
+    "description": "Another virtualized device"
+  }
+]

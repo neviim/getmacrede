@@ -1,15 +1,19 @@
 [package]
 name = "getmacrede"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 
 [dependencies]
 chrono = { version = "0.4.42", features = ["serde"] }
 clap = { version = "4.5.53", features = ["derive"] }
 colored = "3.0.0"
+console = "0.15"
 dns-lookup = "3.0.1"
+trust-dns-resolver = "0.23"
+fs2 = "0.4"
 notify-rust = "4.11.7"
 pnet = "0.35.0"
-serde = "1.0.228"
+reqwest = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
+serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0.145"
 tokio = { version = "1.48.0", features = ["full"] }

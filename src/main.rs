@@ -1,7 +1,9 @@
 mod models;
 mod monitor;
+mod proxmox;
 mod scanner;
 mod utils;
+mod vendor;
 
 use clap::{Parser, Subcommand};
 use colored::*;
@@ -24,6 +26,10 @@ enum Commands {
         /// Network interface to use
         #[arg(short, long)]
         interface: Option<String>,
+
+        /// Resolve hostnames (slower but shows device names)
+        #[arg(long)]
+        hostname: bool,
     },
     /// Monitor the network for changes
     Monitor {
@@ -38,6 +44,10 @@ enum Commands {
         /// Scan interval in seconds
         #[arg(short = 'n', long, default_value_t = 30)]
         interval: u64,
+
+        /// Resolve hostnames (slower but shows device names)
+        #[arg(long)]
+        hostname: bool,
     },
 }
 
@@ -46,7 +56,7 @@ async fn main() {
     let cli = Cli::parse();
 
     match cli.command {
-        Commands::Scan { range, interface } => {
+        Commands::Scan { range, interface, hostname } => {
             let target_ips = match utils::parse_ip_range(&range) {
                 Ok(ips) => ips,
                 Err(e) => {
@@ -56,7 +66,7 @@ async fn main() {
             };
             println!("GetMacRede v{}", env!("CARGO_PKG_VERSION"));
             println!("Scanning {} IPs...", target_ips.len());
-            let devices = scanner::scan_network(interface, target_ips).await;
+            let devices = scanner::scan_network(interface, target_ips, hostname).await;
 
             println!(
                 "{:<15} {:<17} {:<20} {:<10}",
@@ -78,8 +88,9 @@ async fn main() {
             range,
             interface,
             interval,
+            hostname,
         } => {
-            monitor::run_monitor(interface, range, interval).await;
+            monitor::run_monitor(interface, range, interval, hostname).await;
         }
     }
 }

@@ -1,4 +1,3 @@
-use dns_lookup::lookup_addr;
 use pnet::datalink::{self, Channel, MacAddr, NetworkInterface};
 use pnet::packet::arp::{ArpHardwareTypes, ArpOperations, ArpPacket, MutableArpPacket};
 use pnet::packet::ethernet::{EtherTypes, EthernetPacket, MutableEthernetPacket};
@@ -9,11 +8,15 @@ use std::thread;
 use std::time::{Duration, Instant};
 
 use crate::models::Device;
+use crate::vendor::VendorDb;
+use crate::utils;
 
 pub async fn scan_network(
     interface_name: Option<String>,
     target_ips: Vec<Ipv4Addr>,
+    resolve_hostnames: bool,
 ) -> Vec<Device> {
+    let vendor_db = VendorDb::new();
     let interface = if let Some(name) = interface_name {
         datalink::interfaces()
             .into_iter()
@@ -23,13 +26,13 @@ pub async fn scan_network(
         get_default_interface().expect("No suitable network interface found")
     };
 
-    let _source_mac = interface.mac.unwrap();
+    let _source_mac = interface.mac.expect("Network interface has no MAC address");
     let source_ip = interface
         .ips
         .iter()
         .find(|ip| ip.is_ipv4())
         .map(|ip| ip.ip())
-        .unwrap();
+        .expect(&format!("Network interface '{}' has no IPv4 address assigned", interface.name));
     let source_ipv4 = match source_ip {
         std::net::IpAddr::V4(ip) => ip,
         _ => return Vec::new(),
@@ -51,7 +54,7 @@ pub async fn scan_network(
     let rx_thread = thread::spawn(move || {
         let start = Instant::now();
         loop {
-            if start.elapsed() > Duration::from_secs(3) {
+            if start.elapsed() > Duration::from_secs(10) {
                 break;
             }
             match rx.next() {
@@ -64,15 +67,15 @@ pub async fn scan_network(
                                 let sender_mac = arp_packet.get_sender_hw_addr();
                                 let sender_ip = arp_packet.get_sender_proto_addr();
 
-                                // Resolve Hostname (Blocking, but fast enough for local network usually)
-                                let hostname = lookup_addr(&std::net::IpAddr::V4(sender_ip)).ok();
-                                // Vendor lookup placeholder
-                                let vendor = None;
+                                // Vendor lookup using OUI database
+                                let mac_str = sender_mac.to_string();
+                                let vendor = vendor_db.lookup(&mac_str);
 
+                                // Create device without hostname first (will resolve later)
                                 let device = Device::new(
-                                    sender_mac.to_string(),
+                                    mac_str,
                                     sender_ip.to_string(),
-                                    hostname,
+                                    None,
                                     vendor,
                                 );
 
@@ -92,20 +95,48 @@ pub async fn scan_network(
     // Sender Logic
     for target_ip in target_ips {
         send_arp_request(&mut *tx, &interface, source_ipv4, target_ip);
-        // Minimal delay to avoid flooding too hard, but keep it fast
-        thread::sleep(Duration::from_micros(500));
+        // Delay between requests to avoid flooding and packet loss
+        thread::sleep(Duration::from_millis(2));
     }
 
     rx_thread.join().unwrap();
 
-    let result = devices.lock().unwrap().clone();
+    let mut result = devices.lock().unwrap().clone();
+
+    // Only resolve hostnames if requested (can be slow)
+    if resolve_hostnames {
+        // Load DHCP leases for faster hostname resolution
+        let dhcp_leases = utils::load_dhcp_leases();
+
+        // Resolve hostnames for all discovered devices (async with timeout)
+        for device in &mut result {
+            if let Ok(ip) = device.ip.parse::<std::net::IpAddr>() {
+                // Use 3 second timeout per device to avoid long delays
+                if let Some(hostname) = utils::resolve_hostname_with_timeout(
+                    ip,
+                    Some(&dhcp_leases),
+                    3,
+                )
+                .await
+                {
+                    device.hostname = Some(hostname);
+                }
+            }
+        }
+    }
+
     result
 }
 
 fn get_default_interface() -> Option<NetworkInterface> {
     datalink::interfaces()
         .into_iter()
-        .find(|iface| !iface.is_loopback() && iface.is_up() && !iface.ips.is_empty())
+        .find(|iface| {
+            !iface.is_loopback()
+            && iface.is_up()
+            && iface.mac.is_some()
+            && iface.ips.iter().any(|ip| ip.is_ipv4())
+        })
 }
 
 fn send_arp_request(
